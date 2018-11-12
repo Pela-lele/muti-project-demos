@@ -1,0 +1,14 @@
+body{
+    background: grey;
+}
+
+.module{
+    font-size: 20px;
+    background: red;
+    background: url('../img/big.jpg');
+}
+.module2{
+    font-size: 20px;
+    background: red;
+    background: url('../img/big.jpg');
+}
