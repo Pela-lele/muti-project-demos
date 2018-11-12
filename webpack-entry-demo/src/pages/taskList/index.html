@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>任务列表</title>
+    <link rel="stylesheet" href="static/plugins/layui/css/layui.css">
+</head>
+
+<body class="layui-layout-body shadow-inner" style="background: #F5F5F5;">
+    <div class="container-wrapper">
+        <!-- <div class="content"> -->
+        <div class="head-toolbar">
+            <input type="text" class="search-input search" placeholder="搜关键词" autocomplete="off">
+            <!-- <input type="text" class="form-control search" placeholder="搜姓名、级别、标签、设备、任务名称、地点" autocomplete="off"> -->
+            <div class="layui-btn-group btn-group">
+                <button class="layui-btn layui-btn-primary deleteLot">批量删除</button>
+                <button class="layui-btn blueBtn addTask">新增任务</button>
+            </div>
+        </div>
+        <div class="table-content">
+            <table id="tabel-task" lay-filter="tabel-task" class="layTable"></table>
+        </div>
+        <!-- </div> -->
+    </div>
+<script src="static/plugins/layui/layui.js"></script>
+</body>
+
+</html>

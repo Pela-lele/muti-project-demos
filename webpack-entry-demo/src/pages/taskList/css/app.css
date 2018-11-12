@@ -1,0 +1,91 @@
+.container-wrapper{
+  padding: 0 22px;
+}
+.head-toolbar{
+  margin-top: 32px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+/* 详情 */
+.taskDetail{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 22px;
+}
+.map-wrapper{
+	width: 350px;
+	height: 100%;
+	float: left;
+}
+.info-wrapper{
+	/*width: 380px;*/
+	height: 100%;
+	float: left;
+	overflow: auto;
+	padding-left: 20px;
+}
+.info-inline{
+	/*width: 380px;*/
+	line-height: 22px;
+	clear: both;
+	width: 100%;
+	display: flex;
+}
+.info-inline .info-label{
+	padding: 5px 0;
+    color: #878d99;
+    text-align: left;
+    float: left;
+    display: block;
+    width: 70px;
+    font-weight: 400;
+}
+.info-inline .info-input{
+	/*padding: 5px 15px;*/
+	padding: 5px;
+	flex:1;
+	/*padding: 5px 0 0 70px;*/
+}
+.info-bottom{
+	margin-top: 20px;
+}
+.info-bottom .title{
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.info-bottom-content{
+	display: flex;
+}
+.info-bottom-content .img-left{
+	width: 120px;
+	height: 120px;
+	border: 1px solid #e8ecf2;
+	box-sizing:border-box;
+	padding: 7px;
+	margin-right: 15px;
+}
+.info-bottom-content .img-left img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    object-position: 50% 50%;
+}
+.info-bottom-content .info-right{
+	flex:1;
+}
+.info-bottom-content .info-right .info-label{
+	width: 48px;
+}
+.info-bottom-content .info-right .label-tag {
+    display: inline-block;
+    padding: 0 10px;
+    background: #feeeee;
+    color: #fa5555;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
